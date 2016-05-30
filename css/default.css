@@ -6,7 +6,7 @@ body{
 
 .breadcrumbs li{
   display:inline;/*liを横並びに*/
-  list-style-type:none;?:点を消す*/
+  list-style-type:none;/*点を消す*/
 }
 
 .breadcrumbs li:before{
