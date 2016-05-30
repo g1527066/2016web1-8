@@ -6,5 +6,7 @@ body{
 
 
 #gnav a{
-  display
+  display;block;
+  text-align:center;/*中央揃え*/
+  text-decoration:none;
 }
