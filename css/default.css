@@ -70,3 +70,35 @@ color:black;
     content:"";/*最初だけcontentを消す*/
 }
 
+#gnav a{
+   display:block;/*a要素のブロック化*/
+
+ text-align:center;/*中央揃え*/
+ text-decoration:none;/*下線を消す*/
+ background:darkgreen;
+ color:white;
+}
+
+#gnav a:after{
+  clear:both;
+}
+
+#gnav div.img{
+  display:table-cell;
+  vertical-align:middle;
+  background:url()no-repeat;
+  width:55px;
+  height:46px;
+}
+
+#gnav div.text{
+  display:table-cell;
+  vertical-align:middle;
+  padding:10px 5px;
+  
+}
+div.img#home{ background-position:0 0px;}
+div.img#content1{ background-position:0 -46px;}
+div.img#content2{ background-position:0 -92px;}
+div.img#help{ background-position:0 -138px;}
+div.img#hfaq{ background-position:0 -184px;}
