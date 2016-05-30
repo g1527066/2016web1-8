@@ -17,9 +17,3 @@ body{
     content:"";/*最初だけcontentを消す*/
 }
 
-
-#gnav a{
-  display;block;
-  text-align:center;/*中央揃え*/
-  text-decoration:none;
-}
