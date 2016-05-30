@@ -86,7 +86,7 @@ color:black;
 #gnav div.img{
   display:table-cell;
   vertical-align:middle;
-  background:url()no-repeat;
+  background:url(sprite.png)no-repeat;
   width:55px;
   height:46px;
 }
