@@ -18,7 +18,11 @@ color:black;
   
 }
 
-
+#grav a.selected{
+  background:white;
+  color:darkgreen;
+  font-weight:bold;/*太文字にする*/
+}
 
 #gnav ul{
   overflow:hidden;
